@@ -16,31 +16,30 @@
         <section>
           <center>
             <header>
-              Registration form
+              Pharmacy General Information
             </header>
           </center>
-          <!-- login form starts here-->
+          <!-- pharmacy general information form starts here-->
           <form action="" class="header" method="post">
             <div class="field input">
-              <label for="">Username</label>
-              <input type="text" name="username" placeholder="Enter your username">
+              <label for="">Pharmacy name</label>
+              <input type="text" name="name" placeholder="Enter the pharmacy name">
             </div>
             <div class="field input">
-              <label for="">Password</label>
-              <input type="password" name="password" placeholder="Enter your password">
+              <label for="">Pharmacy Address</label>
+              <input type="text" name="address" placeholder="Enter the address">
             </div>
             <div class="field input">
-              <label for="">Confirm password</label>
-              <input type="password" name="Confirm password" placeholder="Confirm your password">
+              <label for="">Pharmacy number</label>
+              <input type="text" name="number" placeholder="Enter the phone number">
             </div>
             <div class="field button">
-              <input type="submit" name="submit" value="REGISTER">
+              <input type="submit" name="submit" value="SUBMIT">
             </div>
             <div class="error-text"></div>
 
-              <a href="index.php" class="link">Login here...</a>
           </form>
-          <!--login form ends here-->
+          <!--pharmacy general information form ends here-->
         </section>
       </div>
 
