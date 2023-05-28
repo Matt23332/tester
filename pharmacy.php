@@ -20,7 +20,7 @@
             </header>
           </center>
           <!-- pharmacy general information form starts here-->
-          <form action="" class="header" method="post">
+          <form action="add_pharmacy.php" class="header" method="post">
             <div class="field input">
               <label for="">Pharmacy name</label>
               <input type="text" name="name" placeholder="Enter the pharmacy name">

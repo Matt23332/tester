@@ -20,14 +20,22 @@
             </header>
           </center>
           <!-- login form starts here-->
-          <form action="" class="header" method="post">
+          <form action="connect.php" class="header" method="post">
+            <div class="field input">
+              <label for="">Name</label>
+              <input type="text" name="name" placeholder="Enter your name">
+            </div>
+            <div class="field input">
+              <label for="">Email Address</label>
+              <input type="text" name="email" placeholder="Enter your email">
+            </div>
             <div class="field input">
               <label for="">Username</label>
-              <input type="text" name="username" placeholder="Enter your username">
+              <input type="text" name="Username" placeholder="Enter your username">
             </div>
             <div class="field input">
               <label for="">Password</label>
-              <input type="password" name="password" placeholder="Enter your password">
+              <input type="password" name="Password" placeholder="Enter your password">
             </div>
             <div class="field input">
               <label for="">Confirm password</label>

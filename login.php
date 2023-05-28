@@ -8,7 +8,6 @@
 
   <link rel="stylesheet" href="style.css">
 
-
 </head>
 <body>
   <!--wrapper-->
@@ -20,7 +19,7 @@
             </header>
           </center>
           <!-- login form starts here-->
-          <form action="" class="header" method="post">
+          <form action="process_login.php" class="header" method="post">
             <div class="field input">
               <label for="">Username</label>
               <input type="text" name="username" placeholder="Enter your username">
