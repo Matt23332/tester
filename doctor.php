@@ -1,3 +1,8 @@
+<?php
+
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en-GB">
     <head>
@@ -6,7 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=0.1">
         <title>Pharmacy Management System</title>
 
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="">
     </head>
     <body>
         <!--wrapper-->
@@ -18,6 +23,8 @@
                     </header>
                 </center>
                 <!--doctor details begins here-->
+                <h2>WELCOME, <?php echo $_SESSION['user'];?></h2>
+
                 <form action="add_doctor.php" class="header" method="post">
                     <div class="field input">
                         <label for="">Doctor's Name</label>
@@ -34,6 +41,8 @@
                     <div class="field button">
                         <input type="submit" name="submit" value="ADD DOCTOR">
                     </div>
+
+                    Click here to <a href="logout.php" class="link">logout</a>
                 </form>
                 <!--doctor details ends here-->
             </section>

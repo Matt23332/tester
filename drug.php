@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=0.1">
         <title>Pharmacy Management System</title>
 
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="">
     </head>
     <body>
         <!--wrapper-->

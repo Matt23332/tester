@@ -26,7 +26,7 @@ class databaseHandler {
         $sql = "INSERT INTO $table ($columns) VALUES ($values)";
 
         if ($conn->query($sql) === TRUE) {
-            echo "Connection successful.Data has been inserted successfully.";
+            echo "Connection successful. Data has been inserted successfully.";
         } else {
             echo "Error inserting the data: " . $conn->error;
         }

@@ -1,3 +1,8 @@
+<?php
+
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en-GB">
     <head>
@@ -18,6 +23,8 @@
                     </header>
                 </center>
                 <!--patient form starts here-->
+                <h1>WELCOME, <?php echo $_SESSION['user'];?></h1>
+
                 <form action="add_patient.php" class="header" method="post">
                     <div class="field input">
                         <label for="">Name</label>
@@ -42,6 +49,8 @@
                     <div class="field button">
                         <input type="submit" name="submit" value="ADD PATIENT">
                     </div>
+
+                    Click here to <a href="logout.php" class="link">logout</a>
                 </form>
                 <!--patient form ends here-->
             </section>
