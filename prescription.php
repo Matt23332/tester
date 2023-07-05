@@ -30,6 +30,16 @@
                     <div class="field input">
                         <label for="">Drug name</label>
                         <input type="text" name="drug_name" placeholder="Enter the name of the drug">
+                        <select>
+                            <?php
+                            $query = "SELECT name FROM drug";
+                            $result = mysqli_query($conn,$query);
+
+                            while ($row = mysqli_fetch_assoc($result)) {
+                                echo "<option value='" .$row['name'] . "'>" .$row['name'] . "</option>";
+                            }
+                            ?>
+                        </select>
                     </div>
                     <div class="field input">
                         <label for="">Quantity</label>

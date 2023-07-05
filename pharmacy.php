@@ -37,6 +37,8 @@
               <input type="submit" name="submit" value="SUBMIT">
             </div>
             <div class="error-text"></div>
+            
+            Click here to <a href="logout.php" class="link">logout</a>
 
           </form>
           <!--pharmacy general information form ends here-->

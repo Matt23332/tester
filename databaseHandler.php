@@ -27,6 +27,7 @@ class databaseHandler {
 
         if ($conn->query($sql) === TRUE) {
             echo "Connection successful. Data has been inserted successfully.";
+            header("Location: login.php");
         } else {
             echo "Error inserting the data: " . $conn->error;
         }

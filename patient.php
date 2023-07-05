@@ -1,6 +1,7 @@
 <?php
 
 session_start();
+
 ?>
 
 <!DOCTYPE html>
@@ -11,7 +12,7 @@ session_start();
         <meta name="viewport" content="width=device-width, initial-scale=0.1">
         <title>Pharmacy Management System</title>
 
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="">
     </head>
     <body>
         <!--wrapper-->
@@ -23,7 +24,7 @@ session_start();
                     </header>
                 </center>
                 <!--patient form starts here-->
-                <h1>WELCOME, <?php echo $_SESSION['user'];?></h1>
+                <h1>WELCOME, <?php echo $_SESSION['user']; ?></h1>
 
                 <form action="add_patient.php" class="header" method="post">
                     <div class="field input">
@@ -48,6 +49,7 @@ session_start();
                     </div>
                     <div class="field button">
                         <input type="submit" name="submit" value="ADD PATIENT">
+                        <input type="submit" name="submit" value="UPDATE PATIENT"><a href="CRUD.php"></a>
                     </div>
 
                     Click here to <a href="logout.php" class="link">logout</a>
